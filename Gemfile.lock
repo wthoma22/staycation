@@ -82,6 +82,7 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    gravatarify (3.1.1)
     i18n (0.8.6)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -233,6 +234,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   factory_girl_rails (~> 4.0)
+  gravatarify
   jbuilder (~> 2.5)
   jquery-rails
   kaminari
@@ -250,4 +252,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.15.1
+   1.15.2

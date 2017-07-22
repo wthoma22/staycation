@@ -8,11 +8,11 @@
     <%= f.hidden_field :reset_password_token %>
 
     <div class="form-group">
-      <%= f.passord_field :passord, autofocus: true, autocomplete: "off" :class => "form-control", :placeholder => "New password" %>
+      <%= f.password_field :password, autofocus: true, autocomplete: "off" :class => "form-control", :placeholder => "New password" %>
     </div>
 
     <div class="form-group">
-      <%= f.passord_field :passord_confirmation, autofocus: true, autocomplete: "off" :class => "form-control", :placeholder => "Confirm new password" %>
+      <%= f.password_field :password_confirmation, autofocus: true, autocomplete: "off" :class => "form-control", :placeholder => "Confirm new password" %>
     </div>
 
       <%= f.submit "Change my password", :class => "btn btn-danger" %>
