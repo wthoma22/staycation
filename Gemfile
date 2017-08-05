@@ -20,6 +20,8 @@ gem 'sendgrid-rails'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'figaro'
+gem 'omniauth-google-oauth2'
+
 # gem 'turbolinks'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
