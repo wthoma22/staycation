@@ -24,6 +24,7 @@ gem 'omniauth-google-oauth2'
 gem 'font-awesome-sass'
 gem 'paperclip'
 gem 'geocoder'
+gem 'jquery-ui-rails'
 
 # gem 'turbolinks'
 # Use Redis adapter to run Action Cable in production
