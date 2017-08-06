@@ -222,3 +222,9 @@ input[type="checkbox"]:checked:before {
 .text-line-through {
   text-decoration: line-through;
 }
+
+.reservation-table td {
+  width: 100%;
+  border: solid #dce0e0;
+  padding: 10px;
+}
