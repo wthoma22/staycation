@@ -1,6 +1,13 @@
 <%= form_for([@room, @room.reservations.new]) do |f| %>
 
 <div class="row">
+	<div class="col-md-12 price_tag">
+		<span><%= @room.price %></span>
+		<span class="pull-right">Per Night</span>
+	</div>
+</div>
+
+<div class="row">
 	<div class="col-md-12 price-tag">
 		<span>$<%= @room.price %></span>
 		<span class="pull-right">Per Night</span>
