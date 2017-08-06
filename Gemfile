@@ -22,6 +22,7 @@ gem 'omniauth-facebook'
 gem 'figaro'
 gem 'omniauth-google-oauth2'
 gem 'font-awesome-sass'
+gem 'paperclip'
 
 # gem 'turbolinks'
 # Use Redis adapter to run Action Cable in production
